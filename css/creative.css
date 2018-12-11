@@ -19,13 +19,13 @@ hr.light {
 }
 
 a {
-  color: #F05F40;
+  color: #c068d0;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #f05f40;
+  color: #c068d0;
 }
 
 h1,
@@ -515,6 +515,20 @@ header.masthead p {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* --------------------------------- Fin timeline ---------------------------------------- */
